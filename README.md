@@ -35,6 +35,16 @@ cp .env.example .env
 
 -   Once your .env file has been created, add your database credentials
 
+```
+# Below are sample database credentials if using Laravel sail
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=powergrid_test
+DB_USERNAME=sail
+DB_PASSWORD=password
+```
+
 -   Generate your key
 
 ```
